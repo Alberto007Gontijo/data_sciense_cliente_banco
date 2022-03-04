@@ -1,0 +1,29 @@
+Resultados do credit_data para conparação de processamento
+----------------------------------------------------------
+0.936 - Naive Bayes - inconsistentes + faltantes + escalonamento
+0.936 - Naive Bayes - inconsistentes + faltantes
+0.932 - Naive Bayes - sem pré processamento
+----------------------------------------------------------
+0.964 - Arvore de decisão - inconsistentes + faltantes + escalonamento
+0.964 - Arvore de decisão - inconsistentes + faltantes
+0.964 - Arvore de decisão - sem pré processamento
+----------------------------------------------------------
+0.984 - Random Forest - inconsistentes + faltantes + escalonamento
+0.984 - Random Forest - inconsistentes + faltantes
+0.988 - Random Forest - sem pré processamento. obs. Não aceita faltantes
+----------------------------------------------------------
+0.938 - CN2 - inconsistentes + faltantes + escalonamento
+0.938 - CN2 - inconsistentes + faltantes 
+0.938 - CN2 - sem pré processamento
+----------------------------------------------------------
+0.982 - knn - inconsistentes + faltantes + escalonamento
+0.866 - knn - inconsistentes + faltantes 
+0.000 - knn - sem pré processamento (não roda com inconsistentes e faltantes)
+----------------------------------------------------------
+0.952 - Regressão Logistica - inconsistentes + faltantes + escalonamento
+0.950 - Regressão Logistica - inconsistentes + faltantes 
+0.946 - Regressão Logistica - sem pré processamento (não roda com inconsistentes e faltantes)
+-----------------------------------------------------------------------------------------------
+0.9880 - SVM kernel = radial, cost = 5.0 = inconsistentes + faltantes + escalonamento
+0.9880 - SVM kernel = radial, cost = 5.0 = inconsistentes + faltantes
+0error - SVM kernel = radial, cost = 5.0 = sem pre-processamento
